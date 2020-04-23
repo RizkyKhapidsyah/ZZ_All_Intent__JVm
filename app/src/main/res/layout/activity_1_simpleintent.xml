@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RLayout_1_SimpleIntent_IDXML"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".a_SimpleIntent.Activity_1">
+
+    <Button
+        android:id="@+id/B_1_SimpleIntent_IDXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="B_1_SimpleIntent_Ketika_Dipijit"
+        android:text="@string/B_1_SimpleIntent_IDXML" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/B_Kembali_SimpleIntent_IDXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/B_1_SimpleIntent_IDXML"
+        android:layout_centerHorizontal="true"
+        android:text="@string/B_Kembali_SimpleIntent_IDXML"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

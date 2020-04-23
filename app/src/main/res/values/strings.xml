@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ZZ_All_Intent__JVm</string>
+    <string name="B_1_MainActivity_IDXML">Contoh Intent: Simple Intent</string>
+    <string name="B_2_MainActivity_IDXML">Contoh Intent: Kirim Data Ke Activity Lain</string>
+    <string name="TV_1_IDXML">Contoh-Contoh Intent :</string>
+    <string name="B_3_MainActivity_IDXML">Contoh Intent: Mulai Activity Untuk Intent Hasil</string>
+    <string name="B_1_SimpleIntent_IDXML">Buka Activity 2 (Simple Intent)</string>
+    <string name="B_2_SimpleIntent_IDXML">Kembali Ke Activity 1 (Simple Intent)</string>
+    <string name="B_Kembali_SimpleIntent_IDXML">Kembali</string>
+    <string name="ET_1_KirimDataKeActivityLain_IDXML">Masukkan Nama Anda..</string>
+    <string name="B_1_MasukkanDataKeActivityLain">Buka Activity 2</string>
+    <string name="B_2_MasukkanDataKeActivityLain">Kembali Ke Activity 1</string>
+    <string name="TV_1_MulaiActivityUntukIntentHasil_IDXML">Buka Activity 2 dan Masukkan Nama Anda</string>
+    <string name="B_1_MulaiActivityUntukIntentHasil_IDXML">Buka Activity 2</string>
+    <string name="ET_1_MulaiActivityUntukIntentHasil_IDXML">Masukkan Nama Anda...</string>
+    <string name="B_2_MulaiActivityUntukIntentHasil_IDXML">Kirim</string>
+</resources>

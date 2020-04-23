@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TV_1_MainActivity_IDXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/TV_1_IDXML"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/B_1_MainActivity_IDXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV_1_MainActivity_IDXML"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/B_1_MainActivity_IDXML"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/B_2_MainActivity_IDXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/B_1_MainActivity_IDXML"
+        android:text="@string/B_2_MainActivity_IDXML"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/B_3_MainActivity_IDXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/B_2_MainActivity_IDXML"
+        android:text="@string/B_3_MainActivity_IDXML"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

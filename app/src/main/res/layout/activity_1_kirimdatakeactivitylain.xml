@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RLayout_1_KirimDataKeActivityLain_IDXML"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/ET_1_KirimDataKeActivityLain_IDXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/ET_1_KirimDataKeActivityLain_IDXML"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/B_1_MasukkanDataKeActivityLain_IDXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ET_1_KirimDataKeActivityLain_IDXML"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="B_1_MasukkanDataKeActivityLain_KetikaDipijit"
+        android:text="@string/B_1_MasukkanDataKeActivityLain" />
+
+
+</RelativeLayout>
